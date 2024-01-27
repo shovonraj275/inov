@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1200px){
+  .row{
+    margin: 0 15px;
+  }
+  .main-nav{
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 1024px)
+{
+  html{
+    font-size: 55.5%;
+  }
+  section{
+
+  }
+  .row{
+    margin: 0 15px;
+    max-width: 994px;
+  }
+  .main-nav{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  .clients-photo{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .comment{
+  float: none;
+  width: 100%;
+  text-align: center;
+  }
+  .clients-row-02{
+    margin-top: 100px;
+  }
+
+  form{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 980px)
+{
+  html{
+    font-size: 62.5%;
+  }
+  .little-dicrpsion{
+    margin-left: 0px;
+    width: 100%;
+  }
+  header{
+    height:65vh;
+  }
+  .hero-text-box{
+    width: 85%;
+  }
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+    .span_1_of_4:nth-child(3){
+      margin-left: 0;
+    }
+    .radious-coustom.span_1_of_4{
+      width: 49.2%;
+    }
+    #skile-responsive{
+      width: 49.2%;
+    }
+    #skile-responsive:nth-child(3){
+      margin-left: 0;
+    }
+    .radious-coustom{
+      margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+  .span_1_of_4,
+  .span_1_of_2{
+    width: 100%;
+  }
+  .concact .span_1_of_2{
+    margin-left: 0;
+  }
+  #skile-responsive{
+    width: 100%;
+  }
+  #skile-responsive:nth-child(3){
+    margin-left: 0;
+  }
+  .radious-coustom{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 480px)
+{
+  h2{
+    font-size: 28px;
+  }
+  #skile-responsive{
+    width: 100%;
+  }
+  #skile-responsive:nth-child(3){
+    margin-left: 0;
+  }
+  .radious-coustom{
+    margin-left: 0px;
+  }
+}
